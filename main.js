@@ -104,7 +104,7 @@ function createInputElement(inputData) {
     var inputElement = document.createElement('input');
     inputElement.type = inputData.type;
     inputElement.id = inputData.id;
-    inputElement.value = inputData.label;
+    inputElement.placeholder = inputData.label;
     formElement.appendChild(inputElement);
 
     var spanElement = document.createElement('span');
@@ -117,8 +117,12 @@ function createTextareaElement(textareaData) {
     var textareaElement = document.createElement('textarea');
     textareaElement.type = textareaData.type;
     textareaElement.id = textareaData.id;
-    textareaElement.value = textareaData.label;
+    textareaElement.placeholder = textareaData.label;
     formElement.appendChild(textareaElement);
+
+    var spanElement = document.createElement('span');
+    spanElement.className = "fa " + textareaData.icon + " icontext";
+    formElement.appendChild(spanElement);    
 };
 
 function createSelectElement(selectData) {

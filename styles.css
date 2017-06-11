@@ -65,7 +65,7 @@ form {
 
 }
 
-input, textarea, select {
+input, select {
     color: gray;
     font-size: 12px;
     height: 35px;
@@ -74,6 +74,20 @@ input, textarea, select {
     margin-top: .75em;
     margin: 10px 23px;
     border: 1px solid lightgray;
+    z-index: 2;
+}
+
+textarea {
+    color: gray;
+    font-size: 12px;
+    height: 70px;
+    width: 482px;
+    padding-top: 5px;
+    padding-left: 3em;
+    margin-top: .75em;
+    margin: 10px 23px;
+    border: 1px solid lightgray;
+    z-index: 2;
 }
 
 .fa {
@@ -86,6 +100,15 @@ input, textarea, select {
     margin-left: 25px;
     margin-top: -35px;
     position: relative;
-    z-index: 2;
+    /*z-index: 2;*/
     margin-bottom: 20px;
+}
+
+.icontext {
+    text-align: left;
+    margin-left: 25px;
+    margin-top: -75px;
+    position: relative;
+    /*z-index: 2;*/
+    margin-bottom: 60px;
 }
