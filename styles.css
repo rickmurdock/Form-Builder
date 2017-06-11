@@ -1,0 +1,36 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+    max-width: 1280px;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100vw;
+    margin: 0 25vw;
+    text-align: center;
+}
+
+input, textarea, select {
+    height: 2em;
+    width: 20vw;
+    padding-left: .75em;
+    margin-top: .75em;
+    border: 1px solid black;
+}
+
+
+
