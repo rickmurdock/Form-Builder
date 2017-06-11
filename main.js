@@ -106,6 +106,11 @@ function createInputElement(inputData) {
     inputElement.id = inputData.id;
     inputElement.value = inputData.label;
     formElement.appendChild(inputElement);
+
+    var spanElement = document.createElement('span');
+    spanElement.className = "fa " + inputData.icon + " icon";
+    formElement.appendChild(spanElement);
+
 };
 
 function createTextareaElement(textareaData) {
