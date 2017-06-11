@@ -134,6 +134,13 @@ function createSelectElement(selectData) {
 
     var selectParent = document.querySelector('select');
 
+    var optionElement = document.createElement('option');  
+    optionElement.value = "";
+    optionElement.innerHTML = selectData.label;
+    optionElement.disabled = true;
+    optionElement.selected = true;
+    selectParent.appendChild(optionElement);
+
     for (let i = 0; i < selectData.options.length; i++) {
         var optionElement = document.createElement('option');  
         optionElement.value = selectData.options[i].value;
