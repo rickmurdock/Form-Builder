@@ -95,7 +95,7 @@ function buildForm() {
             createTextareaElement(formData[i]);
             break;
         default:
-            console.log('skip');
+            break;
         }
     }
 }
