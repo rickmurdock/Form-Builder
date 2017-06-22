@@ -1,8 +1,8 @@
-# Form-Builder
+# Form Builder
 The Iron Yard Project: Form Builder
 
+This project will test your knowledge of parsing through an array of data and appending it to the DOM.
 
-# Form Builder
 ### INSTRUCTIONS
 
 - Download the starter files below and using the variable `formData` at the top of the `main.js` file to iterate through 
