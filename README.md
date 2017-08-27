@@ -3,6 +3,12 @@ The Iron Yard Daily Project: Form Builder
 
 This project will test your knowledge of parsing through an array of data and appending it to the DOM.
 
+---
+
+### View the finished project: http://form-builder.surge.sh/
+
+---
+
 ### INSTRUCTIONS
 
 - Download the starter files below and using the variable `formData` at the top of the `main.js` file to iterate through 
